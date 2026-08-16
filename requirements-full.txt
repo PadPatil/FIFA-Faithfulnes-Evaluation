@@ -1,0 +1,10 @@
+# Optional, heavy dependencies needed only to run the *real* VLM/VQA backends
+# (Qwen3VLCaptioner, Molmo2Captioner) instead of the default mock backends.
+# Requires a CUDA GPU and multi-GB model downloads; not needed to run the
+# notebook's demo pipeline end-to-end.
+-r requirements.txt
+torch>=2.3
+transformers>=4.45
+accelerate>=0.33
+qwen-vl-utils>=0.0.8
+einops>=0.8

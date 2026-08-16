@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/synthetic/*.mp4
+data/movienet/
+data/bbc/
+results/
+.DS_Store
