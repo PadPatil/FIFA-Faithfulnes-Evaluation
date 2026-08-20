@@ -54,3 +54,6 @@ This project builds on open research and tooling from:
   url={https://arxiv.org/abs/2303.11897}
 }
 ```
+
+## AI usage
+AI tools were used throughout the project, helping with literature review, writing code, and fixing bugs. They were especially helpful in integrating new libraries and resolving dependencies.
